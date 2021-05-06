@@ -123,10 +123,18 @@ color: rgb(204, 200, 200);
 @media(max-width: 1100px){
  .h1 {
    font-size: 25px;
-   padding-top: 150px;
+   margin-top: 150px;
    letter-spacing: 5px;
    transition-duration: 0.5s;
  }
+}
+
+@media(min-width: 1100px) {
+  .startB {
+    display: block;
+    position: relative;
+    font-size: 20px;
+  }
 }
 
 @media(max-width: 1360px){
@@ -134,6 +142,7 @@ color: rgb(204, 200, 200);
     display: none;
   }
 }
+
 
 @media(max-width: 1360px) {
   .startB {
@@ -150,10 +159,20 @@ color: rgb(204, 200, 200);
    width: 100vw;
    height: 90px;
    position: relative;
-   bottom: 640px;
-   min-width: 500px;
+   bottom: 630px;
  }
 } 
+
+@media(min-width: 150px) and (max-width: 1360px) {
+  .menuBorder {
+    display: block;
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    width: 100vw;
+    height: 90px;
+  }
+}
 
 @media(max-width: 1360px) {
   .mobileStartB {
@@ -166,7 +185,18 @@ color: rgb(204, 200, 200);
   border-style: none;
   background-color: white;
   font-family: 'Trebuchet MS', sans-serif;
-  min-width: 150px;
  }
 }
 
+@media(max-width: 1310px) {
+  .getStarted {
+    position: relative;
+    /* margin-top: 40px; */
+  }
+}
+
+@media(max-width: 1300px) {
+  body {
+    background-size: cover;
+  }
+}
